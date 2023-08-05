@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 40px;
+    color: rgb(54, 22, 173);
+  }
+.container {
+    background-color:rgb(195, 247, 174);
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 6px 6px 20px 0px rgba(149, 12, 12, 0.1);
+}
+.head{
+    max-width: 1090px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+    }
+.logo{
+    display: flex;
+}
+.image-logo {
+    margin-right: 4px;
+}
+.text-logo{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+line-height: normal;
+}
+.social-link{
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1090 px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.left-column{
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 720px;
+}
+.user-profession{
+    margin: 0;
+    color: #2671da;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-name{
+    margin: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 16px; 
+}
+.user-d{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-bottom: 55px;
+}
+.features-title{
+    color: #3de253;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item{
+    flex-basis: 50%;
+    max-width: 288px;
+    margin-bottom: 30px;
+}
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+}
+.features-item-title{
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.features-text{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.project-title {
+    color: #50ce54;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.project-slider{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.project-text{
+    display: flex;
+    flex-basis: 55%;
+    flex-wrap: wrap;
+}
+.project-text-title{
+    margin: 0;
+    flex-basis: 100%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+.project-time, .project-cost{
+    flex-basis: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.project-subtitle, .project-paragraph{
+    margin: 0;
+}
+.project-icon{
+    margin-right: 11px;
+}
+.project-subtitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.project-paragraph{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+ .right-column{
+        background-color: rgb(8, 129, 8);
+        width: 370px;
+ }
+ .avatar{
+    width: 318px;
+    height: 318px;
+    background-color:rgb(223, 174, 174);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url('../img/foto.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 11px solid rgb(9, 121, 31);
+    margin-bottom: 58px;
+ }
+ .contacts, .tech-skills{
+    margin-left: 40px;
+    margin-bottom: 40px;
+ }
+ .swiper-pagination{
+    margin-top: 30px;
+    position: relative;
+ }
+ .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    border:2px solid #3c83e6;
+    opacity: 1; 
+    background-color: rgba(35, 14, 138, 0);
+ }
+ .swiper-pagination-bullet-active{
+    background-color:#5e98ea;
+ }
+
+.right-title{
+    color: #f378a7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    }
+.contact-type{
+    color: #f03535;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contact-link{
+    opacity: 0.5;
+    color: #35efb4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+}
+.tech-skills{
+    color: #cfb0f6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.soft-skills{
+    color: #7c28db;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+}
